@@ -1,0 +1,2 @@
+
+global.ativado = false;
