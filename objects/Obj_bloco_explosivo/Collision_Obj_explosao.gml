@@ -1,0 +1,2 @@
+
+atingido = true;

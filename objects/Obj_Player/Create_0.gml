@@ -3,6 +3,8 @@
 
 interacao = noone;
 
+global.picareta_atingiu_algo = uso_da_picareta;
+
 #endregion
 
 #region Metodos
@@ -13,10 +15,10 @@ metodo_de_movimentacao = function(){
 
 	_velocidade		= 2;
 
-	_direita		= keyboard_check(ord("D")) or keyboard_check(vk_right);
-	_esquerda		= keyboard_check(ord("A")) or keyboard_check(vk_left);
-	_cima		= keyboard_check(ord("W")) or keyboard_check(vk_up);
-	_baixo		= keyboard_check(ord("S")) or keyboard_check(vk_down);
+	_direita		= keyboard_check(ord("D"));
+	_esquerda		= keyboard_check(ord("A"));
+	_cima		= keyboard_check(ord("W"));
+	_baixo		= keyboard_check(ord("S"));
 	
 	if (_direita){
 	
@@ -64,20 +66,65 @@ metodo_de_movimentacao = function(){
 
 metodo_de_ativacao = function(){
 	
-	var _interagindo;
-	
-	_interagindo = keyboard_check_pressed(ord("E"));
-	
-	if (_interagindo and !instance_exists(Obj_interacao_do_player)){
-	
-		interacao = instance_create_layer(x + 0.5,y + 3,"interativos_etc", Obj_interacao_do_player);
+
+	if(keyboard_check_pressed(vk_up)){
+		
+		global.ataque_cima =  true
 	
 	}
 	
-	if (instance_exists(Obj_interacao_do_player)){
+	if(keyboard_check_pressed(vk_down)){
+		
+		global.ataque_baixo =  true
 	
-	interacao.x = x + 0.5;
-	interacao.y = y + 3;
+	}
+	
+		if(keyboard_check_pressed(vk_left)){
+		
+		global.ataque_esquerda =  true
+	
+	}
+	
+	if(keyboard_check_pressed(vk_right)){
+		
+		global.ataque_direita =  true
+	
+	}
+	
+	
+	if (global.picareta_atingiu_algo > 0){
+	
+		if (!instance_exists(Obj_interacao_do_player) and global.ataque_cima){
+			
+			show_debug_message("Empurrando para cima");
+	
+			interacao = instance_create_layer(x + 1, y - 4, "interativos_etc", Obj_interacao_do_player);
+			
+		}
+		if (!instance_exists(Obj_interacao_do_player) and global.ataque_baixo){
+			
+			show_debug_message("Empurrando para baixo");
+	
+			interacao = instance_create_layer(x + 1, y + 7, "interativos_etc", Obj_interacao_do_player);
+
+			
+		}
+		if (!instance_exists(Obj_interacao_do_player) and global.ataque_esquerda){
+			
+			show_debug_message("Empurrando para esquerda");
+	
+			interacao = instance_create_layer(x - 7, y + 3, "interativos_etc", Obj_interacao_do_player);
+
+	
+		}
+		if (!instance_exists(Obj_interacao_do_player) and global.ataque_direita){
+			
+			show_debug_message("Empurrando para direita");
+	
+			interacao = instance_create_layer(x + 7, y + 3, "interativos_etc", Obj_interacao_do_player);
+			
+		}
+	
 	
 	}
 

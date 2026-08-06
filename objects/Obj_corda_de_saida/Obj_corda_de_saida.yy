@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"Obj_corda_de_saida",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_interacao_do_player","path":"objects/Obj_interacao_do_player/Obj_interacao_do_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Obj_corda_de_saida",
@@ -11,7 +11,10 @@
     "name":"Blocos",
     "path":"folders/Objetos/Blocos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_solido",
+    "path":"objects/Obj_solido/Obj_solido.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -25,10 +28,12 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"destino","filters":[],"listItems":[],"multiselect":false,"name":"destino","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Rm_fase_tutorial","path":"rooms/Rm_fase_tutorial/Rm_fase_tutorial.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Rm_fase_tutorial","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Spr_corda_de_saida",
     "path":"sprites/Spr_corda_de_saida/Spr_corda_de_saida.yy",

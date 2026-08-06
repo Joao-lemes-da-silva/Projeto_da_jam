@@ -41,7 +41,7 @@ function tween(_object, _variable_name, _value, _animation = tween_animation.bac
 
 	// Já existe um tween rodando nessa mesma variável desse mesmo objeto?
 	with (obj_tween) {
-		if (object == _object && variable_name == _variable_name) {
+		if (object == _object and variable_name == _variable_name) {
 			if (value == _value) return id;
 			instance_destroy();
 		}

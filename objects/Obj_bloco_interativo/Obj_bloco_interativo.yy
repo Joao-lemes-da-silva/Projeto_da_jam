@@ -12,7 +12,10 @@
     "name":"Blocos",
     "path":"folders/Objetos/Blocos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_solido",
+    "path":"objects/Obj_solido/Obj_solido.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
