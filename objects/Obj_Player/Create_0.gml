@@ -100,6 +100,12 @@ metodo_de_ativacao = function(){
 	
 			interacao = instance_create_layer(x + 1, y - 4, "interativos_etc", Obj_interacao_do_player);
 			
+			interacao.image_angle = 0;
+			
+			interacao.y = y - 5;
+			
+			interacao.x = x;
+			
 		}
 		if (!instance_exists(Obj_interacao_do_player) and global.ataque_baixo){
 			
@@ -107,6 +113,11 @@ metodo_de_ativacao = function(){
 	
 			interacao = instance_create_layer(x + 1, y + 7, "interativos_etc", Obj_interacao_do_player);
 
+			interacao.image_angle = 180;
+			
+			interacao.y = y + 10;
+			
+			interacao.x = x;
 			
 		}
 		if (!instance_exists(Obj_interacao_do_player) and global.ataque_esquerda){
@@ -115,7 +126,12 @@ metodo_de_ativacao = function(){
 	
 			interacao = instance_create_layer(x - 7, y + 3, "interativos_etc", Obj_interacao_do_player);
 
-	
+			interacao.image_angle = 90;
+			
+			interacao.y = y;
+			
+			interacao.x = x - 10;
+			
 		}
 		if (!instance_exists(Obj_interacao_do_player) and global.ataque_direita){
 			
@@ -123,11 +139,32 @@ metodo_de_ativacao = function(){
 	
 			interacao = instance_create_layer(x + 7, y + 3, "interativos_etc", Obj_interacao_do_player);
 			
+			interacao.image_angle = 270;
+			
+			interacao.y = y;
+			
+			interacao.x = x + 12;
 		}
 	
 	
 	}
 
+}
+
+metodo_usos = function(){
+	
+	var _altura_da_tela = view_hport;
+	
+	var _coretor_de_gui = 30;
+
+	repeat(global.picareta_atingiu_algo){
+	
+		draw_sprite_ext(Spr_usos, 0, _coretor_de_gui, _altura_da_tela - 30, 3,3,0,c_white,1);
+	
+		_coretor_de_gui += 55;
+	
+	}
+	
 }
 
 #endregion

@@ -67,6 +67,9 @@ metodo_de_coice = function()
 		tween(id, "x", proximoX, tween_animation.linear, 10);
 		
 		global.picareta_atingiu_algo --;
+		
+		audio_play_sound(Som_batendo,5,false, 4);
+		
 	}
 
 	// =========================
@@ -83,6 +86,8 @@ metodo_de_coice = function()
 		tween(id, "x", proximoX, tween_animation.linear, 10);
 		
 		global.picareta_atingiu_algo --;
+	
+		audio_play_sound(Som_batendo,5,false, 4);
 	}
 
 	// =========================
@@ -99,6 +104,8 @@ metodo_de_coice = function()
 		tween(id, "y", proximoY, tween_animation.linear, 10);
 		
 		global.picareta_atingiu_algo --;
+	
+		audio_play_sound(Som_batendo,5,false, 4);
 	}
 
 	// =========================
@@ -115,6 +122,8 @@ metodo_de_coice = function()
 		tween(id, "y", proximoY, tween_animation.linear, 10);
 		
 		global.picareta_atingiu_algo --;
+	
+		audio_play_sound(Som_batendo,5,false, 4);
 	}
 };
 
