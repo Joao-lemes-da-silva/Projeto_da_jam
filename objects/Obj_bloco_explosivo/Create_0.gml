@@ -11,11 +11,15 @@ proximoY = y;
 // Indica se o bloco já foi atingido
 atingido = false;
 
-// Define a cor do bloco
-cor = 1;
 
 // Impede que o bloco seja empurrado durante uma animação
 global.movendo = false;
+
+if (Ligado_ao_ativador){
+
+	image_blend = c_red;
+
+}
 
 #endregion
 

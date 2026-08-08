@@ -12,7 +12,7 @@ if (_posicao_do_mouse){
 
 	tween(id, "image_yscale", imagemY * mudanca, animacao_do_tween, velocidade_do_tween);
 
-	tween(id, "escala_texto", escala_texto2 * 1.8, animacao_do_tween, velocidade_do_tween);
+	tween(id, "escala_texto", escala_texto2 + 0.5, animacao_do_tween, velocidade_do_tween);
 
 	if (_mouse_prerssionado){
 	

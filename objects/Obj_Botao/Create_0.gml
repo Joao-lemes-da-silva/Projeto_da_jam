@@ -9,8 +9,8 @@ animacao_do_tween = tween_animation.expo_out;
 
 velocidade_do_tween = 30;
 
-escala_texto = 1;
+escala_texto = 0.5;
 
-escala_texto2 = 1;
+escala_texto2 = 0.5;
 
 intencidade = 0;
