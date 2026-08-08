@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Partesdo_cenario",
+    "path":"folders/Sprites/Partesdo_cenario.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

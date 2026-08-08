@@ -102,7 +102,7 @@ metodo_de_ativacao = function(){
 			
 			interacao.image_angle = 0;
 			
-			interacao.y = y - 5;
+			interacao.y = y - 4;
 			
 			interacao.x = x;
 			

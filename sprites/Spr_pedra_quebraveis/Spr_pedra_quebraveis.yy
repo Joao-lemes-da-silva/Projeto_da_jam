@@ -13,7 +13,7 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"9b594796-839a-457e-8ff3-9455cd288344","name":"9b594796-839a-457e-8ff3-9455cd288344","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"6ea3c140-0269-475c-83f8-2721f5c3e276","name":"6ea3c140-0269-475c-83f8-2721f5c3e276","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"611c6a65-cbfb-4e0f-a124-34b7233b81d2","name":"611c6a65-cbfb-4e0f-a124-34b7233b81d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,8 +73,8 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b594796-839a-457e-8ff3-9455cd288344","path":"sprites/Spr_pedra_quebraveis/Spr_pedra_quebraveis.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"a6857dc2-c55d-42f5-bf10-46cf6d62581d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6ea3c140-0269-475c-83f8-2721f5c3e276","path":"sprites/Spr_pedra_quebraveis/Spr_pedra_quebraveis.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bbabfa71-2be6-4ca6-bb90-a962a8fc270a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"611c6a65-cbfb-4e0f-a124-34b7233b81d2","path":"sprites/Spr_pedra_quebraveis/Spr_pedra_quebraveis.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fd6b6161-2804-4700-8124-31fd292c176f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

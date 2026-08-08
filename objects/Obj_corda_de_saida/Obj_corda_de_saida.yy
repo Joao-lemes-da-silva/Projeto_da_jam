@@ -3,6 +3,7 @@
   "%Name":"Obj_corda_de_saida",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Obj_corda_de_saida",
@@ -30,6 +31,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"destino","filters":[],"listItems":[],"multiselect":false,"name":"destino","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Rm_fase_tutorial","path":"rooms/Rm_fase_tutorial/Rm_fase_tutorial.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Rm_fase_tutorial","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"fim_de_jogo","filters":[],"listItems":[],"multiselect":false,"name":"fim_de_jogo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

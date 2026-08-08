@@ -1,5 +1,7 @@
 
 if (global.cont <= 0){
+	
+	image_index = 1;
 
 	vida --;
 	

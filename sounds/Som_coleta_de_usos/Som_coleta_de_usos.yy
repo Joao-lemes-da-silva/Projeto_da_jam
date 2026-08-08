@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Som_coleta_de_usos",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.3333334,
+  "exportDir":"",
+  "name":"Som_coleta_de_usos",
+  "parent":{
+    "name":"sons",
+    "path":"folders/sons.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Som_coleta_de_usos.wav",
+  "volume":1.0,
+}

@@ -1,0 +1,2 @@
+
+global.goto = destino;
