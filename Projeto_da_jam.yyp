@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"Projeto_da_jam",
   "resources":[
@@ -95,6 +95,7 @@
     {"id":{"name":"Spr_tile","path":"sprites/Spr_tile/Spr_tile.yy",},},
     {"id":{"name":"Spr_usos","path":"sprites/Spr_usos/Spr_usos.yy",},},
     {"id":{"name":"Spr_vitoria","path":"sprites/Spr_vitoria/Spr_vitoria.yy",},},
+    {"id":{"name":"Sprite24","path":"sprites/Sprite24/Sprite24.yy",},},
     {"id":{"name":"Tils_montando_mapa","path":"tilesets/Tils_montando_mapa/Tils_montando_mapa.yy",},},
   ],
   "resourceType":"GMProject",

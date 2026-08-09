@@ -13,8 +13,8 @@
   "name":"Obj_Botao",
   "overriddenProperties":[],
   "parent":{
-    "name":"player",
-    "path":"folders/Objetos/player.yy",
+    "name":"others",
+    "path":"folders/Objetos/others.yy",
   },
   "parentObjectId":null,
   "persistent":false,

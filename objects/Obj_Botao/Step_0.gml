@@ -38,4 +38,6 @@ else{
 	
 }
 
-image_blend = merge_colour(c_blue, c_aqua, intencidade)
+image_blend = merge_colour(cor1, cor2, intencidade)
+
+show_debug_message(intencidade)
